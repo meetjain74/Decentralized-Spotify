@@ -13,3 +13,6 @@ npm install --save moralis react-moralis
 4.
 Install ant design for css
 npm install antd
+
+Check the layout for antdesign here - 
+https://ant.design/components/layout/

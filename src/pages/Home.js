@@ -6,8 +6,7 @@ const Home = () => {
 	return(
 		<>
 			<div className="container">
-					<Link to="/album" className="link">Album Page</Link>
-					Hello 
+				<Link to="/album" className="link">Album Page</Link>
 			</div>
 		</>
 	)

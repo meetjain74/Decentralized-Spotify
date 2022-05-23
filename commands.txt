@@ -1,0 +1,15 @@
+1.
+Create a react app
+npx create-react-app .
+
+2. 
+Install the react-router-dom
+npm install --save react-router-dom
+
+3. 
+Install moralis and react-moralis
+npm install --save moralis react-moralis
+
+4.
+Install ant design for css
+npm install antd

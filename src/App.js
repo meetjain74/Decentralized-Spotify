@@ -2,9 +2,9 @@ import React from 'react';
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Album from './pages/Album';
+import './App.css';
 import { Layout } from 'antd';
 import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
-import './App.css';
 
 import Spotify from "./images/Spotify.png";
 
@@ -36,12 +36,16 @@ function App() {
 
         </Sider>
 
-        <Content>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/album" element={<Album />} />
-          </Routes>
-        </Content>
+        <Layout style={{
+          marginLeft: 300,
+        }}>
+          <Content className="contentWindow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/album" element={<Album />} />
+            </Routes>
+          </Content>
+        </Layout>
       </Layout>
   );
 }

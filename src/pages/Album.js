@@ -5,7 +5,7 @@ const Album = () => {
 	return (
 		<>
 			<div className="container">
-					<Link to="/" className="link">Home</Link>
+				<Link to="/" className="link">Home</Link>
 			</div>
 		</>
 	)
